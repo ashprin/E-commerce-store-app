@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".activity.CheckoutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp">
+
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/productNameTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Product Name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPriceTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Price"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:fontFamily="@font/poppins"
+            android:id="@+id/productDescriptionTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:id="@+id/totalAmountTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rs.1000"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="10dp"
+            android:text="Deliver to "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:id="@+id/deliverAdTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/placeOrderPayBt"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:text="Place order and Pay" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/returnBt"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:text="Cancel and Return Home" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

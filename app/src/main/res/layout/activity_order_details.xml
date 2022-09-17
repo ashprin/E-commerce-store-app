@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.OrderDetailsActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:id="@+id/productCoverImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/productNameTx"
+        style="@style/normalTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:id="@+id/orderedOnTx"
+        style="@style/normalTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:id="@+id/quantityTx"
+        style="@style/normalTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:id="@+id/totalAmountTx"
+        style="@style/normalTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:id="@+id/orderStatusTx"
+        style="@style/normalTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:id="@+id/deliverAdTx"
+        style="@style/normalTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp" />
+
+</LinearLayout>

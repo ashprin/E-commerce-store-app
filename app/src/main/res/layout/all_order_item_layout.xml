@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    android:padding="12dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/productCoverImg"
+            android:layout_width="90dp"
+            android:layout_height="90dp"/>
+
+       <LinearLayout
+           android:layout_marginStart="10dp"
+           android:orientation="vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:fontFamily="@font/poppins"
+               android:id="@+id/product_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Product name"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+                />
+
+           <TextView
+               android:layout_marginTop="5dp"
+               android:fontFamily="@font/poppins"
+               android:id="@+id/product_price"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Price:Rs 1200 "
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               />
+           <TextView
+               android:layout_marginTop="5dp"
+               android:fontFamily="@font/poppins"
+               android:id="@+id/productOrderDt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               />
+           <TextView
+               android:layout_marginTop="5dp"
+               android:fontFamily="@font/poppins"
+               android:id="@+id/productStatus"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               />
+
+
+
+       </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Samyak Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">Enter email</string>
+    <string name="signin">Signin</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="full_name">Full Name</string>
+    <string name="pin_code">Pin code</string>
+    <string name="house_no">Flat,House.,Building,Company,Apartment</string>
+    <string name="village">Area, Street, Sector, Village</string>
+    <string name="landmark">Landmark</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="proceed_to_order">Proceed to Order</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="order_now">Order now</string>
+    <string name="your_address">Your address</string>
+    <string name="logout">Logout</string>
+    <string name="your_orders">Your orders</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_pass">Confirm password</string>
+</resources>
